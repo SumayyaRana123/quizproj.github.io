@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+   
+}
+
+.welcome-container .header-text{
+    color:black;
+    font-size: 40px;
+}
+.welcome-container{
+    
+    color:black;
+    background-color: #ffffcc;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height:75vh;
+    border-radius: 50px ;
+    text-align: center;
+    padding:10px;
+    
+}
+.btn-startquiz{
+    margin-top: 20px;
+    width: 40%;
+    font-size: 19px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color:#b62c09;
+    color:white;
+
+    
+}
+.btn-startquiz:hover {
+ 
+    background-color: #e17055;
+    transition: 0.7s;
+}
+
+.quiz-container{
+
+    color:black;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height:75vh;
+    border-radius: 50px ;
+    padding:2px;
+}
+.quiz-container  h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   color:#b62c09;
+}
+
+.quiz-container  h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.question-text{
+
+  width: 100%;
+  padding: 2px;
+  font-size: 20px;    
+  text-align: left;
+}
+.quiz-container .options-container
+{
+    display: inline-block;
+   font-size: large;
+   
+    margin:1px;
+    width: 100%;
+    
+    
+}
+.quiz-container .options-container .option{
+   
+   display: inline-block;
+   border:1px solid black;
+  
+   font-weight: 900;
+   padding: 1px;
+
+}
+
+
+.options-container .optionn{
+    
+    background-color: #ffffcc;
+    margin: 2px;
+}
+.btn-next-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-next{
+    margin-top: 20px;
+    width: 30%;
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color:#b62c09;
+    color:white;
+    
+}
+.btn-next:hover{
+    background-color: #e17055;
+    transition: 0.7s;
+
+}
+ 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+       <div class="welcome-container">
+           <div class="header"></div>
+            <h1 class="header-text">JavaScript</h1>
+             <div class="descritpion">
+            <p id="resultbox">Your score is: </p>
+            <button type="button" class="btn-startquiz"onclick="startQuiz()">Back to Quiz</button>
+        </div>
+    </div>
+    
+    </div>
+  <!-- The Quiz container -->
+  <div class="quiz-container">
+    <h1>Javascript Quiz</h1>
+    <h3>Question 1 of 10</h3>
+    <div class="question-text"><p>
+        Inside which HTML element do we put the JavaScript?
+    </p></div>
+    <div class="options-container">
+<!--<input type="radio" id="html" name="fav_language" value="HTML">-->
+<div class="optionn">
+<span><input type="radio" class="option" id="option1" name="option" value='scripting'></span>
+<span><label id="lb4o1" for="option1">&lt;scripting&gt;</label></span><br>
+</div>
+
+<div class="optionn" >
+<span><input type="radio" class="option" id="option2" name="option" value='scripting'></span>
+<span><label for="option2">&lt;script&gt;</label></span><br>
+</div>
+
+<div class="optionn" >
+<span><input type="radio" class="option" id="option3" name="option" value='scripting'></span>
+<span><label for="option3">&lt;Javascript&gt;</label></span><br>
+</div>
+
+<div class="optionn" >
+<span><input type="radio" class="option" id="option4" name="option" value='scripting'></span>
+<span><label for="option1">&lt;Js&gt;</label></span><br>
+</div>
+
+    </div>
+    <div class="btn-next-container">
+    <button type="button" class="btn-next"onclick="questionLoad()">Next</button>
+</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
